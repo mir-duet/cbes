@@ -1,0 +1,388 @@
+body{
+    background-color: #F1FFFB;
+}
+.panel {
+    background-color: #F9FFFE;
+}
+.clr{
+    height: 10px;
+}
+/*......................Logo & Menu........................*/
+.navbar-inverse {
+    background-color: #34495e;
+    border-color: #080808;
+}
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:focus, .navbar-inverse .navbar-nav > .open > a:hover {
+    color: #EA6C19;
+    background-color: #2c3e50;
+}
+header.carousel {
+    height: 60%;
+}
+.navbar-inverse .navbar-brand {
+    color: #FFF;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #9D9D9D;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #FFF;
+}
+.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
+    color: #EA6C19;
+    background-color: #2c3e50;
+}
+.dropdown-menu {
+    background-color: #34495e;
+}
+.dropdown-menu > li > a {
+    color: #FFF;
+    padding: 10px 20px;
+}
+.down-menu > li > a:focus, .dropdown-menu > li > a:hover {
+    color: #EA6C19;
+    text-decoration: none;
+    background-color: #2c3e50;
+}
+/*........................Slider....................*/
+.header_logo{
+    width: 150px;
+    height: 150px;
+    top: 0px;
+    bottom: 0px;
+    left: 7.8%;
+    opacity: 0.75;
+    position: absolute;
+}
+.header_logo1{
+    left: 2%;
+}
+.header_title{
+    top: 0px;
+    bottom: 0px;
+    left: 20%;
+    opacity: 0.85;
+    position: absolute;
+    color: white;
+    font-size: 36px;
+}
+.header_title small{
+    color: white;
+}
+/*....................Left Sidebar...................*/
+.panel-default > .panel-heading {
+    color: #2c3e50;
+    background-color: #BBF8D5;
+    border-color: #DDD;
+}
+.upw-content a {
+    color: #34495e;
+    text-decoration: none;
+}
+
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 10px;
+}
+/* .....................Content......................*/
+.content{
+    background: transparent url("../images/bg-main.png") repeat-y scroll right top;
+    overflow: hidden;
+    padding: 27px 20px 20px 0px;
+    border-radius: 0px 0px 10px 10px;
+}
+.imageContainer{
+        position: relative;
+        width: 200px; /*the image width*/
+        height: 200px; /*the image height*/
+        left: 50%;
+        margin-bottom: 10px;
+        margin-left: -100px; /*half the image width*/
+    }
+    .header_content{
+        padding: 0;
+    }
+    .head{
+        border-radius: 5px;
+        box-shadow: #2c3e50;
+    }
+.msg_title {
+    text-align: center;
+    display: block;
+    background-color: #B4C25C;
+    padding: 10px;
+}
+    
+    .detail_img{
+        height: 300px;
+        width: 900px;
+        background: url(http://placehold.it/900x300) no-repeat;
+    }
+/* ..................Right Content...................*/
+.aside {
+    padding: 30px 0px 0px;
+    float: right;
+}
+.aside .slideshow {
+    position: relative;
+    height: auto;
+}
+.aside .slideset {
+    overflow: hidden;
+}
+.aside blockquote {
+    color: #939393;
+    background: transparent url("../images/quote1.png") no-repeat scroll 0px 2px;
+    font-size: 16px;
+    font-family: "calibriregular";
+    margin: 0px 0px 10px;
+    padding: 0px 0px 0px 2px;
+    line-height: 17px;
+    border-left: 0; 
+}
+blockquote::before, blockquote::after, q::before, q::after {
+
+    content: "";
+
+}
+blockquote, blockquote::before, blockquote::after, q, q::before, q::after {
+    quotes: none;
+}
+.aside blockquote q {
+    font-style: italic;
+    text-indent: 16px;
+    margin: 0px 0px 21px;
+    display: block;
+}
+.aside blockquote span {
+    padding: 0px 18px 0px 0px;
+    background: transparent url("../images/quote2.png") no-repeat scroll 100% 100%;
+}
+.aside blockquote cite {
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: bold;
+    color: #F93;
+    font-style: normal;
+}
+.aside .logo_moto {
+    display: block;
+    margin: 0px 0px 30px;
+}
+.aside .logo_moto img {
+    height: auto;
+    max-height: 100px;
+    max-width: 200px;
+    padding: 10px;
+    vertical-align: top;
+    width: 100%;
+}
+
+.aside .more a{
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: #F93;
+    font-size: 12px;
+    line-height: 15px;
+    float:right;
+    margin-right: 20px;
+}
+.aside .more a:hover {
+    text-decoration: none;
+}
+
+
+/* ..................Footer...................*/
+
+footer {
+    margin: 0px 0px;
+    padding: 30px 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 1030;
+}
+footer p{
+    color: #FFF;
+    text-align: center;
+}
+
+
+
+
+
+/* ..................Responsive CSS...................*/
+
+@media all and (max-width:980px){
+    .container {
+        width: 980px;
+    }
+    .navbar-inverse .navbar-nav > li > a {
+     font-size: 12px;
+    }	
+    .header_title {
+        top: 0px;
+        bottom: 0px;
+        left: 23%;
+        opacity: 0.85;
+        position: absolute;
+        color: #FFF;
+        font-size: 36px;
+    }
+    header.carousel {
+        height: 30%;
+    }
+
+
+    
+}
+
+@media all and (max-width:800px){
+    .container {
+        width: 800px;
+    }
+    .navbar-inverse .navbar-nav > li > a {
+     font-size: 12px;
+    }	
+    .header_title {
+        top: 0px;
+        bottom: 0px;
+        left: 25%;
+        opacity: 0.85;
+        position: absolute;
+        color: #FFF;
+        font-size: 26px;
+    }
+    .navbar-header .navbar-brand{
+        float: left;
+        padding: 10px;
+        font-size: 14px;
+    }
+    header.carousel {
+        height: 30%;
+    }
+    
+    .navbar-nav > li > a {
+        padding-left: 5px;
+        padding-right: 10px;
+    }
+
+
+    
+}
+
+@media all and (max-width:768px){
+    .container {
+        width: 768px;
+    }
+    .navbar-inverse .navbar-nav > li > a {
+     font-size: 11px;
+    }	
+    .header_title {
+        top: 0px;
+        bottom: 0px;
+        left: 27%;
+        opacity: 0.85;
+        position: absolute;
+        color: #FFF;
+        font-size: 26px;
+    }
+    .navbar-header .navbar-brand{
+        float: left;
+        padding: 10px;
+        font-size: 14px;
+    }
+    header.carousel {
+        height: 30%;
+    }
+    
+    .navbar-nav > li > a {
+        padding-left: 5px;
+        padding-right: 10px;
+    }
+
+
+    
+}
+
+@media all and (max-width:360px){
+    .container {
+        width: 360px;
+    }
+    .header_title {
+        visibility: hidden;
+    }
+    .header_logo {
+        visibility: hidden;
+    }
+    
+    .navbar-nav > li > a {
+        padding-left: 5px;
+        padding-right: 10px;
+    }
+    
+    .carousel-caption {
+        bottom: 10px;
+        padding-bottom: 15px;
+    }
+    .h2, h2 {
+        font-size: 26px;
+    }
+    .carousel-indicators {
+        bottom: 0px;
+    }
+    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover {
+        color: #EA6C19;
+        background-color: #2C3E50;
+    }
+    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a{
+        color: #FFF;
+        background-color: transparent;
+    }
+    .h1, h1 {
+    font-size: 18px;
+}
+
+    
+}
+
+
+
+@media all and (max-width:320px){
+    .container {
+        width: 320px;
+    }
+    .header_title {
+        visibility: hidden;
+    }
+    .header_logo {
+        visibility: hidden;
+    }
+    
+    .navbar-nav > li > a {
+        padding-left: 5px;
+        padding-right: 10px;
+    }
+    
+    .carousel-caption {
+        bottom: 10px;
+        padding-bottom: 15px;
+    }
+    .h2, h2 {
+        font-size: 26px;
+    }
+    .carousel-indicators {
+        bottom: 0px;
+    }
+    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover {
+        color: #EA6C19;
+        background-color: #2C3E50;
+    }
+    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a{
+        color: #FFF;
+        background-color: transparent;
+    }
+    .h1, h1 {
+    font-size: 18px;
+}
+
+    
+}
